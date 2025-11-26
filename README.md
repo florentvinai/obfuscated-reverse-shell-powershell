@@ -4,7 +4,7 @@
   
 
 Collection of obfuscated PowerShell reverse shells with AV/EDR evasion techniques for authorized security testing.
-Bypass Defender
+All Bypass Defender
 
   
 
