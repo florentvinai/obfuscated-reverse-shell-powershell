@@ -1,0 +1,32 @@
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+# Fichiers de compilation
+*.dll
+*.exe
+*.cs
+*.pdb
+*.obj
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers de test
+test_*.ps1
+*_test.ps1
+
+# Fichiers de sauvegarde
+*.bak
+*~
+
+# Fichiers sensibles (ne pas commiter)
+*.key
+*.pem
+secrets.txt
+config.local.*
