@@ -101,7 +101,7 @@ Complete EDR bypass solution with AMSI and PowerShell Logging evasion. Maximum s
   <img width="2525" height="1377" alt="image" src="https://github.com/user-attachments/assets/5de3c21c-705b-4eb0-842e-70cba99cfc91" />
 
 
-### reverse_shell_process_hollowing_syscallsv2.ps1
+### reverse_shell_inmemory_syscall_loader.ps1
 
 Process Hollowing implementation using direct syscalls. Creates suspended process and replaces memory with shellcode.
 
@@ -109,15 +109,15 @@ Process Hollowing implementation using direct syscalls. Creates suspended proces
 
 **Features:**
 
-- implementation Process Hollowing via `NtUnmapViewOfSection`
+- In-memory shellcode execution
 
 - Direct syscalls (NtCreateThreadEx, NtQueryInformationProcess)
 
 - ETW patching (multiple functions)
 
-- In-memory shellcode execution
+- Basic EDR surface reduction
 
-- Creates process from legitimate executable (notepad.exe)
+- Self-process injection (pas de hollowing)
 
   <img width="2541" height="1321" alt="image" src="https://github.com/user-attachments/assets/c4c420bc-4ecd-4561-8f9a-e7cbd2fc3466" />
 
@@ -205,21 +205,6 @@ cd scripts
 
 ```
 
-  
-
-## Feature Comparison
-
-  
-
-| Feature                    | Basic | DLL Memory | EDR Bypass | Process Hollowing |
-|----------------------------|-------|------------|------------|--------------------|
-| AMSI Bypass                | No    | No         | Yes        | Yes                |
-| ETW Patch                  | No    | No         | Yes        | Yes                |
-| Reflective Loading         | No    | Yes        | Yes        | Yes                |
-| In-Memory Execution        | No    | Yes        | Yes        | Yes                |
-| Process Hollowing          | No    | No         | No         | Yes                |
-| PowerShell Logging Bypass  | No    | No         | Yes        | Yes                |
-| Direct Syscalls            | No    | No         | No         | Yes                |
 
   
 
