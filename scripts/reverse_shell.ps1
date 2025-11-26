@@ -1,6 +1,6 @@
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
-Write-Host "Developed by Florent Vinai" -ForegroundColor Green
+Write-Host "Developpe par: Florent Vinai" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
 
 Write-Host "-Dynamic deobfuscation (Base64 + char arrays)" -ForegroundColor Yellow

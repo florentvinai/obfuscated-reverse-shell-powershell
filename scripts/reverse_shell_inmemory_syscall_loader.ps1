@@ -1,5 +1,5 @@
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "PowerShell Reverse Shell - Process Hollowing Syscalls v2" -ForegroundColor Yellow
+Write-Host "PowerShell Reverse Shell - In-Memory Syscall Loader" -ForegroundColor Yellow
 Write-Host "Developpe par: Florent Vinai" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
@@ -518,11 +518,6 @@ if ($assemblyBytes) {
 
         Write-Host "[+] Patch ETW applique (fonctions multiples)" -ForegroundColor Green
         Write-Host "    -> EtwEventWrite, EtwEventWriteEx, EtwEventWriteFull" -ForegroundColor Gray
-        Start-Sleep -Milliseconds 200
-        
-   
-        Write-Host "[+] APIs Process Hollowing pretes" -ForegroundColor Green
-        Write-Host "    -> NtUnmapViewOfSection, CreateProcess, etc." -ForegroundColor Gray
         Start-Sleep -Milliseconds 200
         
         Write-Host "----------------------------------------" -ForegroundColor DarkGray

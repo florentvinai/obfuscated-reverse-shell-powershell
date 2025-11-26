@@ -1,5 +1,5 @@
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "PowerShell Reverse Shell - EDR Bypass" -ForegroundColor Yellow
+Write-Host "PowerShell Reverse Shell - In-Memory DLL Loader" -ForegroundColor Yellow
 Write-Host "Developpe par: Florent Vinai" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
