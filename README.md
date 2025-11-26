@@ -117,7 +117,7 @@ Process Hollowing implementation using direct syscalls. Creates suspended proces
 
 - Basic EDR surface reduction
 
-- Self-process injection (pas de hollowing)
+- Self-process injection
 
   <img width="2541" height="1321" alt="image" src="https://github.com/user-attachments/assets/c4c420bc-4ecd-4561-8f9a-e7cbd2fc3466" />
 
@@ -130,13 +130,15 @@ Advanced process injection with multiple techniques and EDR evasion.
 
 **Features:**
 
-- Multiple injection methods
-
 - Direct syscall usage
 
-- EDR evasion techniques
+- In-memory shellcode execution
 
-- Stealth process injection
+- ETW patching / télémétrie réduite
+
+- Basic EDR surface reduction (syscalls + ETW patch)
+
+- Self-process injection
 
   <img width="2538" height="1354" alt="image" src="https://github.com/user-attachments/assets/b8dcf04d-d183-4985-a517-af75fbfa0817" />
 
