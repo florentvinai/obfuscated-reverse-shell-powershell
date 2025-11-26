@@ -61,6 +61,7 @@ Basic PowerShell reverse shell with Base64 obfuscation. Uses .NET reflection and
 ### reverse_shell_dll_memory.ps1
 
 Advanced reverse shell with in-memory DLL compilation and loading. No files written to disk during execution.
+<img width="2540" height="1383" alt="image" src="https://github.com/user-attachments/assets/2b2f6f0b-3550-4dfd-b9bd-d56cd9f869ba" />
 
   
 
