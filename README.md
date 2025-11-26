@@ -285,6 +285,6 @@ powershell.exe  -ExecutionPolicy Bypass -File .\reverse_shell_dll_memory_edr_byp
 
   
 
-**prepare_for_github.ps1** - Replaces hardcoded IPs with placeholders before GitHub publication
+**prepare_for_github.ps1** - Replaces hardcoded IPs
 
   
