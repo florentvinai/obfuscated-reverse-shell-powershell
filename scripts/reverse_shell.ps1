@@ -1,6 +1,6 @@
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "PowerShell Reverse Shell" -ForegroundColor Yellow
-Write-Host "Developpe par: Florent Vinai" -ForegroundColor Green
+Write-Host "Developpe par Florent Vinai" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "#D�obfuscation dynamique (Base64 + char arrays)" -ForegroundColor Yellow
 Write-Host "Construction � la vol�e d�objets .NET via r�flexion" -ForegroundColor Yellow
