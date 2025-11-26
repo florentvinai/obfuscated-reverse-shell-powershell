@@ -80,7 +80,7 @@ Advanced reverse shell with in-memory DLL compilation and loading. No files writ
  <img width="2542" height="1372" alt="image" src="https://github.com/user-attachments/assets/00b3aa06-d065-4a47-84d9-4ff1b05ddc38" />
  
 
-### reverse_shell_dll_memory_edr_bypass.ps1
+### reverse_shell_inmemory_dll_loader.ps1
 
 Complete EDR bypass solution with AMSI and PowerShell Logging evasion. Maximum stealth for protected environments.
 
@@ -88,15 +88,17 @@ Complete EDR bypass solution with AMSI and PowerShell Logging evasion. Maximum s
 
 **Features:**
 
-- All features from `reverse_shell_dll_memory.ps1`
+- All features from `reverse_shell_dll_memory.ps1` 
 
-- AMSI bypass via memory patch (Base64 encoded)
+- Dynamic C# DLL compilation (in-memory)
 
-- PowerShell Script Block Logging bypass
+- DLL loading via Assembly.Load() (no file on disk)
 
-- ETW event tracing disabled
+- Reverse shell implemented inside the DLL logic
 
-- Undetectable by Windows Defender
+- Execution from a background thread (managed code)
+
+- No on-disk artifacts (temporary files removed)
 
   <img width="2525" height="1377" alt="image" src="https://github.com/user-attachments/assets/5de3c21c-705b-4eb0-842e-70cba99cfc91" />
 
