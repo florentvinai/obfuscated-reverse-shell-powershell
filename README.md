@@ -15,8 +15,11 @@ Bypass Defender
 **Authorized testing only. Illegal use prohibited.**
 
   
+> **Note:** This repository contains code intended for the study of Windows internal mechanisms.  
+> As with any potentially sensitive research material, it should **not** be submitted to public or automated analysis platforms  
+> (e.g., VirusTotal, HybridAnalysis).  
+> This avoids unintentionally disclosing the inner workings of experimental research code.
 
-Do **NOT** upload these files to public malware-scanning services such as VirusTotal or HybridAnalysis. Doing so may compromise testing objectives and reduce effectiveness.
 
   
 
