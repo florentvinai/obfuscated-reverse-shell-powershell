@@ -56,12 +56,12 @@ Basic PowerShell reverse shell with Base64 obfuscation. Uses .NET reflection and
 
 - Simple TCP connection
 
-  
+ <img width="2549" height="1372" alt="image" src="https://github.com/user-attachments/assets/e0961a4a-40ea-4467-9cfe-e62ec33b7482" />
+ 
 
 ### reverse_shell_dll_memory.ps1
 
 Advanced reverse shell with in-memory DLL compilation and loading. No files written to disk during execution.
-<img width="2540" height="1383" alt="image" src="https://github.com/user-attachments/assets/2b2f6f0b-3550-4dfd-b9bd-d56cd9f869ba" />
 
   
 
@@ -77,7 +77,8 @@ Advanced reverse shell with in-memory DLL compilation and loading. No files writ
 
 - Compatible Windows 11 24h2
 
-  
+ <img width="2542" height="1372" alt="image" src="https://github.com/user-attachments/assets/00b3aa06-d065-4a47-84d9-4ff1b05ddc38" />
+ 
 
 ### reverse_shell_dll_memory_edr_bypass.ps1
 
@@ -97,7 +98,8 @@ Complete EDR bypass solution with AMSI and PowerShell Logging evasion. Maximum s
 
 - Undetectable by Windows Defender
 
-  
+  <img width="2525" height="1377" alt="image" src="https://github.com/user-attachments/assets/5de3c21c-705b-4eb0-842e-70cba99cfc91" />
+
 
 ### reverse_shell_process_hollowing_syscallsv2.ps1
 
@@ -117,7 +119,8 @@ Process Hollowing implementation using direct syscalls. Creates suspended proces
 
 - Creates process from legitimate executable (notepad.exe)
 
-  
+  <img width="2541" height="1321" alt="image" src="https://github.com/user-attachments/assets/c4c420bc-4ecd-4561-8f9a-e7cbd2fc3466" />
+
 
 ### reverse_shell_process_injection_advanced.ps1
 
@@ -135,7 +138,8 @@ Advanced process injection with multiple techniques and EDR evasion.
 
 - Stealth process injection
 
-  
+  <img width="2538" height="1354" alt="image" src="https://github.com/user-attachments/assets/b8dcf04d-d183-4985-a517-af75fbfa0817" />
+
 
 ## Quick Start
 
