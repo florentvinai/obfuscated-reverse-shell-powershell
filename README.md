@@ -142,7 +142,8 @@ Advanced process injection with multiple techniques and EDR evasion.
 
 - Self-process injection
 
-  <img width="2538" height="1354" alt="image" src="https://github.com/user-attachments/assets/b8dcf04d-d183-4985-a517-af75fbfa0817" />
+  <img width="2547" height="1321" alt="image" src="https://github.com/user-attachments/assets/ef27d481-da85-4bfd-b93c-8eba0b0b5867" />
+
 
 
 ## Quick Start
