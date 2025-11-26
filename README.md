@@ -211,23 +211,15 @@ cd scripts
 
   
 
-| Feature | Basic | DLL Memory | EDR Bypass | Process Hollowing |
-
-|---------|-------|------------|------------|-------------------|
-
-| AMSI Bypass | No | No | Yes | Yes |
-
-| ETW Patch | No | No | Yes | Yes |
-
-| Reflective Loading | No | Yes | Yes | Yes |
-
-| In-Memory Execution | No | Yes | Yes | Yes |
-
-| Process Hollowing | No | No | No | Yes |
-
-| PowerShell Logging Bypass | No | No | Yes | Yes |
-
-| Direct Syscalls | No | No | No | Yes |
+| Feature                    | Basic | DLL Memory | EDR Bypass | Process Hollowing |
+|----------------------------|-------|------------|------------|--------------------|
+| AMSI Bypass                | No    | No         | Yes        | Yes                |
+| ETW Patch                  | No    | No         | Yes        | Yes                |
+| Reflective Loading         | No    | Yes        | Yes        | Yes                |
+| In-Memory Execution        | No    | Yes        | Yes        | Yes                |
+| Process Hollowing          | No    | No         | No         | Yes                |
+| PowerShell Logging Bypass  | No    | No         | Yes        | Yes                |
+| Direct Syscalls            | No    | No         | No         | Yes                |
 
   
 
