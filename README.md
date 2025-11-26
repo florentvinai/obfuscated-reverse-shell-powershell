@@ -280,11 +280,3 @@ powershell.exe  -ExecutionPolicy Bypass -File .\reverse_shell_inmemory_dll_loade
 
 
   
-
-## Tools
-
-  
-
-**prepare_for_github.ps1** - Replaces hardcoded IPs
-
-  
