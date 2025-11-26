@@ -122,7 +122,7 @@ Process Hollowing implementation using direct syscalls. Creates suspended proces
   <img width="2541" height="1321" alt="image" src="https://github.com/user-attachments/assets/c4c420bc-4ecd-4561-8f9a-e7cbd2fc3466" />
 
 
-### reverse_shell_process_injection_advanced.ps1
+### reverse_shell_inmemory_syscall_loader_advanced.ps1
 
 Advanced process injection with multiple techniques and EDR evasion.
 
